@@ -1,0 +1,18 @@
+{
+  "id": "./", "name": "Rêson — Rimes & paroles kurdes", "short_name": "Rêson",
+  "description": "L’atelier de rimes et de paroles en kurmanji.",
+  "lang": "fr", "dir": "ltr", "start_url": "./", "scope": "./", "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f7f7f9", "theme_color": "#252132", "categories": ["music", "productivity", "education"],
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Dictionnaire de rimes", "short_name": "Rimes", "url": "./#rimes", "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }] },
+    { "name": "Générateur de paroles", "short_name": "Paroles", "url": "./#paroles", "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }] },
+    { "name": "Mon carnet", "short_name": "Carnet", "url": "./#carnet", "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }] }
+  ]
+}
